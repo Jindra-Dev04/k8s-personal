@@ -8,7 +8,7 @@ spec:
   destination:
     namespace: argocd
     server: https://kubernetes.default.svc
-  project: snowy-lab
+  project: iris-tech
   source:
     path: bootstrap
     repoURL: https://github.com/Jindra-Dev04/k8s-personal
