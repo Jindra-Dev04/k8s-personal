@@ -1,0 +1,36 @@
+traefik:
+  certResolvers:
+    letsencrypt:
+      # for challenge options cf. https://doc.traefik.io/traefik/https/acme/
+      email: j.jakubicka@email.cz
+      tlsChallenge: true
+      httpChallenge:
+        entryPoint: "web"
+      # It has to match the path with a persistent volume
+      storage: /data/acme.json
+
+  ingressRoute:
+    dashboard:
+      enabled: false
+
+  additionalArguments:
+  - "--ping"
+  - "--metrics.prometheus"
+  - "--accesslog=true"
+
+  persistence:
+    enabled: true
+    name: data
+    accessMode: ReadWriteOnce
+    size: 128Mi
+    path: /data
+
+  deployment:
+    initContainers: 
+      - name: volume-permissions
+        image: busybox:1.31.1
+        command: ["sh", "-c", "chmod -Rv 600 /data/*"]
+        volumeMounts:
+          - name: data
+            mountPath: /data
+
