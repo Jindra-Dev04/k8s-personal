@@ -15,7 +15,7 @@ spec:
       annotations:
         "argocd.argoproj.io/manifest-generate-paths": "{{path}}"
     spec:
-      project: snowy-lab
+      project: iris-tech
       syncPolicy:
         syncOptions:
           - CreateNamespace=true
