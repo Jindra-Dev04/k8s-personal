@@ -11,5 +11,5 @@ spec:
   project: snowy-lab
   source:
     path: bootstrap
-    repoURL: https://github.com/wexder/home-lab
+    repoURL: https://github.com/Jindra-Dev04/k8s-personal
     targetRevision: HEAD
