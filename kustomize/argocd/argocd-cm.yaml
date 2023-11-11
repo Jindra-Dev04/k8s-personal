@@ -11,3 +11,13 @@ data:
      clusters:
        - "*"
 
+  dex.config: |
+    connectors:
+    - type: github
+      id: github
+      name: GitHub
+      config:
+        clientID: e840a3281000058d21c5
+        clientSecret: $dex.github.clientSecret
+        orgs:
+        - name: Jindra-Dev04
