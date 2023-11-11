@@ -17,7 +17,7 @@ data:
       id: github
       name: GitHub
       config:
-        clientID: e840a3281000058d21c5
+        clientID: 0d29c6d0984e7d602fef
         clientSecret: $dex.github.clientSecret
         orgs:
         - name: Jindra-Dev04
