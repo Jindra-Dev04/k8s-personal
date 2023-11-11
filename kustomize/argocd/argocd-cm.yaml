@@ -20,4 +20,4 @@ data:
         clientID: 0d29c6d0984e7d602fef
         clientSecret: $dex.github.clientSecret
         orgs:
-        - name: Jindra-Dev04
+        - name: gamabe-iris-tech
