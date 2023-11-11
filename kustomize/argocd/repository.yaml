@@ -1,7 +1,7 @@
 apiVersion: v1
 kind: Secret
 metadata:
-  name: snowy-lab
+  name: iris-tech
   labels:
     argocd.argoproj.io/secret-type: repository
 stringData:
