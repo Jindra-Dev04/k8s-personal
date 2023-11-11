@@ -11,6 +11,7 @@ resources:
 - repository.yaml
 - namespace.yaml
 - ingress.yaml
+- argocd-rbac-cm.yaml
 
 patches:
 - path: argocd-cm.yaml
