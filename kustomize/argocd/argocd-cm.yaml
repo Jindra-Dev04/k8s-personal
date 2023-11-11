@@ -10,7 +10,7 @@ data:
        - CiliumIdentity
      clusters:
        - "*"
-
+  url: https://argo.jindrich-jakubicka.cz
   dex.config: |
     connectors:
     - type: github
