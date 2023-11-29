@@ -1,7 +1,0 @@
-trivy-operator:
-  serviceMonitor:
-    enabled: true
-  trivy:
-    ignoreUnfixed: true
-  operator:
-    metricsVulnIdEnabled: true
