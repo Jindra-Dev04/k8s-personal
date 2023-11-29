@@ -27,4 +27,4 @@ traefik:
 
   service:
     externalIPs:
-    - 192.168.1.187
+    - 192.168.8.8
