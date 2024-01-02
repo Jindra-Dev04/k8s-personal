@@ -60,6 +60,7 @@ factorio:
     passwordSecret: 'game-secret'
 
   server_settings:
+    name: 'As allways'
     require_user_verification: true
     autosave_interval: 5
     visibility:
