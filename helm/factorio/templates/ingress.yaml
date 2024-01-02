@@ -1,15 +1,10 @@
-apiVersion: traefik.containo.us/v1alpha1
 kind: IngressRouteUDP
 metadata:
   name: factorio-server
-  namespace: factorio
 spec:
   entryPoints:
-  - factorio
+    - factorio
   routes:
-  - kind: Rule
-    match: Host(`factorio.jindrich-jakubicka.cz`)
-    priority: 10
-    services:
+  - services:
     - name: factorio-factorio-server-charts
       port: 31497
