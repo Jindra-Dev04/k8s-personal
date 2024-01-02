@@ -49,6 +49,9 @@ factorio:
       - VehicleSnap
       - Waterfill_v17
 
+  service:
+    type: ClusterIP
+
 
   factorioServer:
     generate_new_save: false
