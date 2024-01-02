@@ -6,8 +6,6 @@ metadata:
 spec:
   entryPoints:
   - web
-  - factorio
-  - websecure
   routes:
   - kind: Rule
     match: Host(`factorio.jindrich-jakubicka.cz`)
