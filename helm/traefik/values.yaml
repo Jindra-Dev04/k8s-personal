@@ -17,7 +17,7 @@ traefik:
   - "--ping"
   - "--metrics.prometheus"
   - "--accesslog=true"
-  - "--entrypoints.factorio.address=:31497/tcp"
+  - "--entrypoints.factorio.address=:31497/udp"
 
   persistence:
     enabled: true
@@ -35,4 +35,4 @@ traefik:
       port: 31497
       expose: true
       exposedPort: 31497
-      protocol: TCP
+      protocol: UDP
