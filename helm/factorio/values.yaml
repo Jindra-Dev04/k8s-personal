@@ -1,7 +1,54 @@
 factorio:
   mods:
     enabled: true
-    portal: []
+    portal: 
+      - aai-containers
+      - aai-industry
+      - aai-signal-transmission
+      - alien-biomes
+      - Bottleneck
+      - bullet-trails
+      - calculator-ui
+      - cargo-ships
+      - cargo-ships-graphics
+      - DeadlockBlackRubberBelts
+      - EpicArtillerySounds
+      - equipment-gantry
+      - even-distribution
+      - far-reach
+      - flib
+      - grappling-gun
+      - helmod
+      - informatron
+      - jetpack
+      - Krastorio2
+      - Krastorio2Assets
+      - LogisticTrainNetwork
+      - LTN_Content_Reader
+      - Mechanicus
+      - Mining_Drones
+      - NapalmArtillery
+      - qol_research_jatmn
+      - queue-to-front-button
+      - RateCalculator
+      - obot_attrition
+      - scattergun_turret
+      - shield-projector
+      - simhelper
+      - space-exploration
+      - space-exploration-graphics
+      - space-exploration-graphics-2
+      - space-exploration-graphics-3
+      - space-exploration-graphics-4
+      - space-exploration-graphics-5
+      - space-exploration-menu-simulations
+      - space-exploration-postprocess
+      - Squeak Through
+      - Todo-List
+      - Transport_Drones
+      - VehicleSnap
+      - Waterfill_v17
+
 
   factorioServer:
     generate_new_save: false
