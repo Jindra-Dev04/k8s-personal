@@ -1,9 +1,0 @@
-kube-vip:
-  env:
-    vip_interface: ens18
-    vip_leaderelection: "true"
-    cp_enable: "true"
-    
-
-  config:
-    address: 192.168.8.8
