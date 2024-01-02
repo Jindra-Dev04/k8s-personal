@@ -51,7 +51,7 @@ factorio:
 
   service:
     type: ClusterIP
-
+    port: 31497
 
   factorioServer:
     generate_new_save: false
