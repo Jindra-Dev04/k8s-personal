@@ -63,6 +63,12 @@ factorio:
     name: 'As allways'
     require_user_verification: true
     autosave_interval: 5
+    tags:
+      - 'game'
+      - 'factorio'
+      - 'server'
+      - 'modded'
+      - 'as-always'
     visibility:
       public: true
       lan: true
