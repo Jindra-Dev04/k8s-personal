@@ -17,7 +17,7 @@ traefik:
   - "--ping"
   - "--metrics.prometheus"
   - "--accesslog=true"
-  - "--entrypoints.factorio.address=:31497"
+  - "--entrypoints.factorio.address=:31497/tcp"
 
   persistence:
     enabled: true
