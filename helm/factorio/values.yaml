@@ -1,0 +1,25 @@
+factorio:
+  mods:
+    enabled: true
+    portal: []
+
+  factorioServer:
+    generate_new_save: false
+
+  account:
+    accountSecret: 'account-secret'
+
+  serverPassword:
+    passwordSecret: 'game-secret'
+
+  server_settings:
+    require_user_verification: true
+    autosave_interval: 5
+
+  rcon:
+    external: false
+    passwordSecret: 'account-secret'
+
+  admin_list:
+    - gamabe_cz
+    - mugac
