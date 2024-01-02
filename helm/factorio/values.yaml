@@ -1,4 +1,7 @@
 factorio:
+  image:
+    tag: 1.1.100
+
   mods:
     enabled: true
     portal: 
