@@ -29,3 +29,10 @@ traefik:
   service:
     externalIPs:
     - 192.168.8.170
+
+  ports:
+    factorio:
+      port: 31497
+      expose: true
+      exposedPort: 31497
+      protocol: TCP
