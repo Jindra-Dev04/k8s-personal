@@ -76,7 +76,7 @@ factorio-server-charts:
       - 'as-always'
     visibility:
       public: true
-      lan: true
+      lan: false
 
   rcon:
     external: false
