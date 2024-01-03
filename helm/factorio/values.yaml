@@ -53,7 +53,7 @@ factorio-server-charts:
 
   service:
     type: ClusterIP
-    port: 31497
+    port: 34197
 
   factorioServer:
     generate_new_save: false
