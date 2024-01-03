@@ -78,6 +78,10 @@ factorio-server-charts:
       public: true
       lan: false
 
+  import_save:
+    enabled: true
+    source_url: 'https://cdn.discordapp.com/attachments/936038038352592926/1191922726412226580/JakoVzdycky.zip?ex=65a7338a&is=6594be8a&hm=12884b3a018dc43989813abdb8de7d8671b80b3968405576a51148e26a123b21&' 
+
   rcon:
     external: false
     passwordSecret: 'rcon-secret'
