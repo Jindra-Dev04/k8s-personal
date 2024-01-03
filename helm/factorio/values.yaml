@@ -1,6 +1,6 @@
 factorio-server-charts:
   image:
-    tag: "1.1.101"
+    tag: "1.1.100"
 
   mods:
     enabled: true
@@ -81,7 +81,7 @@ factorio-server-charts:
 
   rcon:
     external: false
-    passwordSecret: 'account-secret'
+    passwordSecret: 'rcon-secret'
 
   admin_list:
     - gamabe_cz
