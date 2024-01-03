@@ -34,7 +34,7 @@ factorio-server-charts:
       - qol_research_jatmn
       - queue-to-front-button
       - RateCalculator
-      - obot_attrition
+      - robot_attrition
       - scattergun_turret
       - shield-projector
       - simhelper
@@ -44,9 +44,8 @@ factorio-server-charts:
       - space-exploration-graphics-3
       - space-exploration-graphics-4
       - space-exploration-graphics-5
-      - space-exploration-menu-simulations
       - space-exploration-postprocess
-      - Squeak Through
+      - 'Squeak Through'
       - Todo-List
       - Transport_Drones
       - VehicleSnap
