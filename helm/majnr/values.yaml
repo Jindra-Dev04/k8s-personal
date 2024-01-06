@@ -10,7 +10,7 @@ minecraft:
     difficulty: normal
     whitelist: 
 
-    servicetype: ClusterIP
+    servicetype: LoadBalancer
     servicePort: 25565
     
     autoCurseForge:
