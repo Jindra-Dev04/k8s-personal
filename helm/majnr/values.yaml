@@ -1,6 +1,6 @@
 minecraft:
 
-  workloadAsStatefulset: true
+  workloadAsStatefulSet: true
   strategyType: RollingUpdate
 
   minecraftServer:
