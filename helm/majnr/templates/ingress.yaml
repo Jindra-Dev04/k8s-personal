@@ -7,7 +7,7 @@ spec:
   entryPoints:
     - minecraft
   routes:
-  - match: Host(`tcp-target.jindrich-jakubicka.cz`)
+  - match: HostSNI(`tcp-target.jindrich-jakubicka.cz`)
     priority: 10
     services:
     - name: majnr-minecraft
