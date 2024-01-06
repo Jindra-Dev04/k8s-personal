@@ -1,0 +1,27 @@
+minecraft:
+
+  workloadAsStatefulset: true
+  strategyType: RollingUpdate
+
+  minecraftServer:
+    eula: true
+    version: 1.20.1
+    type: CURSEFORGE
+    difficulty: normal
+    whitelist: 
+
+    servicetype: ClusterIP
+    servicePort: 25565
+    
+  autoCurseForge:
+    apiKey:
+      existingSecret: curseforge-secret
+      key: cf-api-key
+
+    pageUrl: https://www.curseforge.com/minecraft/modpacks/majnr-plus
+
+  persistance:
+    dataDir:
+      enabled: true
+      size: 2Gi
+      
