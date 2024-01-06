@@ -7,6 +7,8 @@ spec:
   entryPoints:
     - minecraft
   routes:
-  - services:
+  - match: Host(`majnr.jindrich-jakubicka.cz`)
+    priority: 10
+    services:
     - name: 
       port: 25565
