@@ -5,7 +5,7 @@ minecraft:
 
   minecraftServer:
     eula: true
-    version: 1.20.1
+    version: "1.20.1"
     type: CURSEFORGE
     difficulty: normal
     whitelist: 
