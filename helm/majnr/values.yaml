@@ -13,12 +13,12 @@ minecraft:
     servicetype: ClusterIP
     servicePort: 25565
     
-  autoCurseForge:
-    apiKey:
-      existingSecret: curseforge-secret
-      key: cf-api-key
+    autoCurseForge:
+      apiKey:
+        existingSecret: curseforge-secret
+        key: cf-api-key
 
-    pageUrl: https://www.curseforge.com/minecraft/modpacks/majnr-plus
+      pageUrl: https://www.curseforge.com/minecraft/modpacks/majnr-plus
 
   persistence:
     dataDir:
