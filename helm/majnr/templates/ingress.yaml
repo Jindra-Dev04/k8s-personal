@@ -10,5 +10,5 @@ spec:
   - match: Host(`majnr.jindrich-jakubicka.cz`)
     priority: 10
     services:
-    - name: 
+    - name: majnr-minecraft
       port: 25565
