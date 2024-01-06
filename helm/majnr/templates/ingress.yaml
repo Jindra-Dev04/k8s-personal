@@ -12,3 +12,5 @@ spec:
     services:
     - name: majnr-minecraft
       port: 25565
+  tls:
+    certResolver: letsencrypt
