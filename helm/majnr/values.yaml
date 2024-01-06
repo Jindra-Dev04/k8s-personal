@@ -6,9 +6,8 @@ minecraft:
   minecraftServer:
     eula: true
     version: "1.20.1"
-    type: CURSEFORGE
+    type: AUTO_CURSEFORGE
     difficulty: normal
-    cfServerMod: "fabric-server-launch.jar"
     whitelist: 
 
     servicetype: ClusterIP
