@@ -13,4 +13,7 @@ spec:
     - name: majnr-minecraft
       port: 25565
   tls:
-    certResolver: letsencrypt
+    domains:
+      - main: jindrich-jakubicka.cz
+        sans:
+          - "*.jindrich-jakubicka.cz"
