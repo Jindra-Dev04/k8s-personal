@@ -20,8 +20,7 @@ minecraft:
 
     pageUrl: https://www.curseforge.com/minecraft/modpacks/majnr-plus
 
-  persistance:
+  persistence:
     dataDir:
       enabled: true
       size: 2Gi
-      
