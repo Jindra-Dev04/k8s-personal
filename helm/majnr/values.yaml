@@ -9,10 +9,16 @@ minecraft:
     type: AUTO_CURSEFORGE
     difficulty: normal
     whitelist: "gamabe_cz, Mr_Guglik, Sp3lky"
+    ops: "gamabe_cz"
     memory: 12G
 
     serviceType: LoadBalancer
     servicePort: 25565
+
+    rcon:
+      enabled: true
+      withGeneratedPassword: true
+
     
     autoCurseForge:
       apiKey:
