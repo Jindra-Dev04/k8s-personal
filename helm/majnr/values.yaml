@@ -24,6 +24,8 @@ minecraft:
       apiKey:
         existingSecret: curseforge-secret
         key: cf-api-key
+      includeMods:
+        - "https://www.curseforge.com/minecraft/mc-mods/worldedit/files/4586218"
 
       pageUrl: https://www.curseforge.com/minecraft/modpacks/majnr-plus
 
