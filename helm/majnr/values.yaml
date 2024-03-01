@@ -27,7 +27,7 @@ minecraft:
       includeMods:
         - worldedit
 
-      pageUrl: https://www.curseforge.com/minecraft/modpacks/majnr-plus
+      pageUrl: https://www.curseforge.com/minecraft/modpacks/majnr-plus/files/5131051
 
   persistence:
     dataDir:
