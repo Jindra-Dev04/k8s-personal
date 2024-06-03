@@ -10,7 +10,7 @@ spec:
   - match: HostSNI(`*`)
     priority: 10
     services:
-    - name: majnr-minecraft
+    - name: create-minecraft
       port: 25565
   tls:
     domains:
