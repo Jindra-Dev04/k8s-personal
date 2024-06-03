@@ -13,7 +13,7 @@ minecraft:
     memory: 12G
 
     serviceType: LoadBalancer
-    servicePort: 25565
+    servicePort: 25505
 
     rcon:
       enabled: true
