@@ -13,10 +13,11 @@ minecraft:
 
     # World
     difficulty: hard
-    viewDistance: "16"
-    spawnProtection: "0"
-    maxWorldSize: "20000"
-    maxBuildHeight: "320"
+    viewDistance: 16
+    spawnProtection: 0
+    maxWorldSize: 20000
+    maxBuildHeight: 320
+    levelSeed: "795771997"
 
     # Service
     serviceType: LoadBalancer
