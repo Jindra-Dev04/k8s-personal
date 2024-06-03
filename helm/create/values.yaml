@@ -42,3 +42,9 @@ minecraft:
     dataDir:
       enabled: true
       size: 20Gi
+
+  livenessProbe:
+    initialDelaySeconds: "60"
+
+  readinessProbe:
+    initialDelaySeconds: "120"
