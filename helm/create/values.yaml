@@ -27,7 +27,8 @@ minecraft:
       includeMods:
         - worldedit
 
-      pageUrl: https://legacy.curseforge.com/minecraft/modpacks/cogs-spells/files/5395186
+      # pageUrl: https://www.curseforge.com/minecraft/modpacks/majnr-plus/files/5131051
+      slug: "1030081"
 
   persistence:
     dataDir:
