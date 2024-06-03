@@ -5,13 +5,20 @@ minecraft:
 
   minecraftServer:
     eula: true
-    version: "1.20.1"
-    type: AUTO_CURSEFORGE
-    difficulty: normal
-    whitelist: "gamabe_cz, Mr_Guglik, Sp3lky"
-    ops: "gamabe_cz"
+    version: "1.19.2"
+    type: FORGE
+    forgeVersion: "43.3.0"
+    ops: "gamabe_cz, JackVonTennessee"
     memory: 12G
 
+    # World
+    difficulty: hard
+    viewDistance: "16"
+    spawnProtection: "0"
+    maxWorldSize: "20000"
+    maxBuildHeight: "320"
+
+    # Service
     serviceType: LoadBalancer
     servicePort: 25565
 
@@ -20,17 +27,17 @@ minecraft:
       withGeneratedPassword: true
 
     
-    autoCurseForge:
-      apiKey:
-        existingSecret: curseforge-secret
-        key: cf-api-key
-      includeMods:
-        - worldedit
+    # autoCurseForge:
+    #   apiKey:
+    #     existingSecret: curseforge-secret
+    #     key: cf-api-key
+    #   includeMods:
+    #     - worldedit
 
-      # pageUrl: https://www.curseforge.com/minecraft/modpacks/majnr-plus/files/5131051
-      slug: "cogs-spells"
+    #   # pageUrl: https://www.curseforge.com/minecraft/modpacks/majnr-plus/files/5131051
+    #   slug: "cogs-spells"
 
   persistence:
     dataDir:
       enabled: true
-      size: 2Gi
+      size: 20Gi
