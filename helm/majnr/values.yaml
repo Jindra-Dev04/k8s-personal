@@ -10,7 +10,7 @@ minecraft:
     difficulty: normal
     whitelist: "gamabe_cz, Mr_Guglik, Sp3lky"
     ops: "gamabe_cz"
-    memory: 12G
+    memory: 6G
 
     serviceType: LoadBalancer
     servicePort: 25505

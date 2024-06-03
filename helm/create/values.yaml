@@ -9,7 +9,7 @@ minecraft:
     type: FORGE
     forgeVersion: "43.3.0"
     ops: "gamabe_cz, JackVonTennessee"
-    memory: 12G
+    memory: 17G
 
     # World
     difficulty: hard
