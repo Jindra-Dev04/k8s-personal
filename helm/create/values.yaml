@@ -1,0 +1,35 @@
+minecraft:
+
+  workloadAsStatefulSet: true
+  strategyType: RollingUpdate
+
+  minecraftServer:
+    eula: true
+    version: "1.20.1"
+    type: AUTO_CURSEFORGE
+    difficulty: normal
+    whitelist: "gamabe_cz, Mr_Guglik, Sp3lky"
+    ops: "gamabe_cz"
+    memory: 12G
+
+    serviceType: LoadBalancer
+    servicePort: 25565
+
+    rcon:
+      enabled: true
+      withGeneratedPassword: true
+
+    
+    autoCurseForge:
+      apiKey:
+        existingSecret: curseforge-secret
+        key: cf-api-key
+      includeMods:
+        - worldedit
+
+      pageUrl: https://www.curseforge.com/minecraft/modpacks/majnr-plus/files/5131051
+
+  persistence:
+    dataDir:
+      enabled: true
+      size: 2Gi
