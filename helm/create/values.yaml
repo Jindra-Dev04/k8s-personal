@@ -27,15 +27,15 @@ minecraft:
       enabled: true
       withGeneratedPassword: true
     
-    mcbackup:
-      enabled: true
-      initialDelay: 10m
-      backupInterval: 12h
+  mcbackup:
+    enabled: true
+    initialDelay: 10m
+    backupInterval: 12h
 
-      persistence:
-        backupDir:
-          enabled: true
-          Size: 9Gi      
+    persistence:
+      backupDir:
+        enabled: true
+        Size: 9Gi      
 
     
     # autoCurseForge:
