@@ -25,7 +25,8 @@ minecraft:
 
     rcon:
       enabled: true
-      withGeneratedPassword: true
+      existingSecret: rcon
+      secretKey: rcon
     
   mcbackup:
     enabled: true
