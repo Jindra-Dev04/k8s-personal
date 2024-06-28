@@ -30,10 +30,16 @@ minecraft:
     
   mcbackup:
     enabled: true
+    backupMethod: rclone
     initialDelay: 3m
-    backupInterval: 2h
+    backupInterval: 1h
     pauseIfNoPlayers: "true"
-    pruneBackupsDays: 3
+    pruneBackupsDays: 7
+
+    # RClone
+    rcloneRemote: s3
+    rcloneDestDir: jindra-experiments/backup
+    rcloneConfigExistingSecret: rclone
 
     persistence:
       backupDir:
