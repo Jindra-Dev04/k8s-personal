@@ -32,9 +32,9 @@ minecraft:
     enabled: true
     backupMethod: rclone
     initialDelay: 3m
-    backupInterval: 1h
+    backupInterval: 3h
     pauseIfNoPlayers: "true"
-    pruneBackupsDays: 7
+    pruneBackupsDays: 2
 
     # RClone
     rcloneRemote: s3
