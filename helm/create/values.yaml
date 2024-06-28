@@ -30,8 +30,10 @@ minecraft:
     
   mcbackup:
     enabled: true
-    initialDelay: 10m
-    backupInterval: 12h
+    initialDelay: 3m
+    backupInterval: 2h
+    pauseIfNoPlayers: "true"
+    pruneBackupsDays: 3
 
     persistence:
       backupDir:
