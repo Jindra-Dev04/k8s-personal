@@ -44,7 +44,7 @@ minecraft:
     persistence:
       backupDir:
         enabled: true
-        Size: 9Gi      
+        Size: 5Gi      
 
     
     # autoCurseForge:
