@@ -31,7 +31,7 @@ minecraft:
   mcbackup:
     enabled: true
     backupMethod: rclone
-    initialDelay: 3m
+    initialDelay: 6h
     backupInterval: 3h
     pauseIfNoPlayers: "true"
     pruneBackupsDays: 2
