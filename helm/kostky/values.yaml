@@ -16,7 +16,7 @@ minecraft:
     spawnProtection: 0
     maxWorldSize: 20000
     maxBuildHeight: 320
-    levelSeed: "795771997"
+    levelSeed: "-4889139371038821151"
 
     # Service
     serviceType: LoadBalancer
