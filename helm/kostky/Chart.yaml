@@ -1,0 +1,10 @@
+apiVersion: v2
+name: kostky
+version: 1.0.0
+description: A Helm chart for Kubernetes
+type: application
+dependencies:
+- name: minecraft
+  version: 4.26.3
+  repository: https://itzg.github.io/minecraft-server-charts/
+

@@ -1,0 +1,68 @@
+minecraft:
+
+  workloadAsStatefulSet: true
+  strategyType: RollingUpdate
+
+  minecraftServer:
+    eula: true
+    version: "1.21.4"
+    type: PAPER
+    ops: "gamabe_cz, JackVonTennessee"
+    memory: 8G
+
+    # World
+    difficulty: hard
+    viewDistance: 16
+    spawnProtection: 0
+    maxWorldSize: 20000
+    maxBuildHeight: 320
+    levelSeed: "795771997"
+
+    # Service
+    serviceType: LoadBalancer
+    servicePort: 25566
+
+    rcon:
+      enabled: true
+      existingSecret: rcon
+      secretKey: rcon
+    
+  mcbackup:
+    enabled: true
+    backupMethod: rclone
+    initialDelay: 6h
+    backupInterval: 3h
+    pauseIfNoPlayers: "true"
+    pruneBackupsDays: 2
+
+    # RClone
+    rcloneRemote: s3
+    rcloneDestDir: jindra-experiments/backup
+    rcloneConfigExistingSecret: rclone
+
+    persistence:
+      backupDir:
+        enabled: true
+        Size: 3Gi      
+
+    
+    # autoCurseForge:
+    #   apiKey:
+    #     existingSecret: curseforge-secret
+    #     key: cf-api-key
+    #   includeMods:
+    #     - worldedit
+
+    #   # pageUrl: https://www.curseforge.com/minecraft/modpacks/majnr-plus/files/5131051
+    #   slug: "cogs-spells"
+
+  persistence:
+    dataDir:
+      enabled: true
+      Size: 2Gi
+
+  livenessProbe:
+    initialDelaySeconds: "120"
+
+  readinessProbe:
+    initialDelaySeconds: "180"

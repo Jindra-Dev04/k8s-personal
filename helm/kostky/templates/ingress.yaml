@@ -1,0 +1,19 @@
+apiVersion: traefik.containo.us/v1alpha1
+kind: IngressRouteTCP
+metadata:
+  name: majnr-minecraft
+  namespace: majnr
+spec:
+  entryPoints:
+    - minecraft
+  routes:
+  - match: HostSNI(`*`)
+    priority: 10
+    services:
+    - name: create-minecraft
+      port: 25565
+  tls:
+    domains:
+      - main: jindrich-jakubicka.cz
+        sans:
+          - "*.jindrich-jakubicka.cz"
