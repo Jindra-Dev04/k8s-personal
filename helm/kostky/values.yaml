@@ -62,7 +62,7 @@ minecraft:
       Size: 2Gi
 
   livenessProbe:
-    initialDelaySeconds: "120"
+    initialDelaySeconds: "60"
 
   readinessProbe:
-    initialDelaySeconds: "180"
+    initialDelaySeconds: "90"
