@@ -10,10 +10,10 @@ spec:
   - match: HostSNI(`*`)
     priority: 10
     services:
-    - name: create-minecraft
-      port: 25565
+    - name: kostky-minecraft
+      port: 25566
   tls:
     domains:
-      - main: jindrich-jakubicka.cz
+      - main: mugac.dev
         sans:
-          - "*.jindrich-jakubicka.cz"
+          - "*.mugac.dev"
