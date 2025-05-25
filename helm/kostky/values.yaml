@@ -19,7 +19,7 @@ minecraft:
     levelSeed: "-4889139371038821151"
 
     # Service
-    serviceType: LoadBalancer
+    serviceType: ClusterIP
     servicePort: 25566
 
     rcon:
