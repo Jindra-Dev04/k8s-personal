@@ -18,7 +18,7 @@ traefik:
   - "--metrics.prometheus"
   - "--accesslog=true"
   - "--entrypoints.factorio.address=:34197/udp"
-  - "--entrypoints.minecraft.address=:25566/tcp"
+  - "--entrypoints.minecraft.address=:25565/tcp"
 
   persistence:
     enabled: true
@@ -38,7 +38,7 @@ traefik:
       exposedPort: 34197
       protocol: UDP
     minecraft:
-      port: 25566
+      port: 25565
       expose: true
-      exposedPort: 25566
+      exposedPort: 25565
       protocol: TCP

@@ -20,7 +20,7 @@ minecraft:
 
     # Service
     serviceType: ClusterIP
-    servicePort: 25566
+    servicePort: 25565
 
     rcon:
       enabled: true
