@@ -7,7 +7,7 @@ spec:
   entryPoints:
     - minecraft
   routes:
-  - match: HostSNI(`*`)
+  - match: HostSNI(`xd.mugac.dev`)
     priority: 10
     services:
     - name: kostky-minecraft
