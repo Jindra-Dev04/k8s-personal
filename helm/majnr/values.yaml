@@ -33,3 +33,21 @@ minecraft:
     dataDir:
       enabled: true
       size: 2Gi
+
+  mcbackup:
+    enabled: true
+    backupMethod: rclone
+    initialDelay: 5m
+    backupInterval: 3h
+    pauseIfNoPlayers: "true"
+    pruneBackupsDays: 2
+
+    # RClone
+    rcloneRemote: s3
+    rcloneDestDir: jindra-experiments/majnr
+    rcloneConfigExistingSecret: rclone
+
+    persistence:
+      backupDir:
+        enabled: true
+        Size: 3Gi
