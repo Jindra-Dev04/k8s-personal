@@ -1,7 +1,7 @@
 apiVersion: traefik.containo.us/v1alpha1
 kind: IngressRouteTCP
 metadata:
-  name: majnr-minecraft
+  name: kostky-minecraft
   namespace: majnr
 spec:
   entryPoints:
