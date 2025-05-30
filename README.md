@@ -48,6 +48,23 @@ The repository uses Argo CD ApplicationSets to manage applications:
 1. **Argo CD**: GitOps continuous delivery tool configured with custom settings.
 2. **Cloudflared**: Cloudflare Tunnel for secure external access to cluster services.
 
+#### Cloudflare Tunnel
+
+The repository includes a Cloudflared deployment to create secure tunnels from the internet to services running within the Kubernetes cluster, without requiring public IPs or opening firewall ports.
+
+Key features:
+- Deployed in a dedicated `cloudflared` namespace
+- Configured with high availability using 2 replicas
+- Uses a Cloudflare Tunnel token stored as a Kubernetes Secret
+- Includes health checks via readiness and liveness probes
+- Exposes metrics on port 2000
+
+To use Cloudflare Tunnels:
+1. Create a tunnel in the Cloudflare Zero Trust dashboard
+2. Generate a tunnel token and replace the value in `kustomize/cloudflared/secrets.yaml`
+3. Deploy the cloudflared service via Argo CD
+4. Create DNS records in Cloudflare that point to your tunnel
+
 ## Getting Started
 
 ### Prerequisites
