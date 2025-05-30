@@ -15,12 +15,14 @@ This repository contains configurations for a personal Kubernetes cluster, organ
 ├── helm/                      # Helm chart configurations
 │   ├── create/                # Create application
 │   ├── factorio/              # Factorio game server
+│   ├── kostky/                # Kostky application with ingress configuration
 │   ├── majnr/                 # Majnr application
 │   ├── prometheus/            # Prometheus monitoring stack
 │   ├── reflector/             # Reflector for K8s resource mirroring
 │   └── traefik/               # Traefik ingress controller
 └── kustomize/                 # Kustomize configurations
-    └── argocd/                # Argo CD configuration
+    ├── argocd/                # Argo CD configuration
+    └── cloudflared/           # Cloudflare Tunnel configuration
 ```
 
 ## Bootstrap
@@ -44,6 +46,7 @@ The repository uses Argo CD ApplicationSets to manage applications:
 ### Kustomize
 
 1. **Argo CD**: GitOps continuous delivery tool configured with custom settings.
+2. **Cloudflared**: Cloudflare Tunnel for secure external access to cluster services.
 
 ## Getting Started
 
