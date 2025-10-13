@@ -135,3 +135,8 @@ factorio-server-charts:
   admin_list:
     - gamabe_cz
     - mugac
+
+  persistence:
+    enabled: true
+    dataDir:
+      Size: "5Gi"
