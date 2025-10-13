@@ -104,6 +104,7 @@ factorio-server-charts:
   factorioServer:
     generate_new_save: true
     enable_space_age: true
+    update_mods_on_start: true
 
   account:
     accountSecret: 'account-secret'
