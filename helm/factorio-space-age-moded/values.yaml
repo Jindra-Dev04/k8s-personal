@@ -127,7 +127,6 @@ factorio-server-charts:
 
   import_save:
     enabled: false
-    source_url: ''
 
   rcon:
     external: false
