@@ -5,98 +5,97 @@ factorio-server-charts:
   mods:
     enabled: true
     portal: 
-      - aai-containers
-      - aai-industry
-      - aai-programmable-vehicles
-      - aai-signal-transmission
-      - aai-signals
-      - aai-vehicles-chaingunner
-      - aai-vehicles-flame-tank
-      - aai-vehicles-hauler
-      - aai-vehicles-laser-tank
-      - aai-zones
-      - alien-biomes
-      - alien-biomes-graphics
-      - alloy-smelting
-      - astroponics
-      - Automatic_Train_Painter
-      - Better_Starmap_Background
-      - bigger-artillery
-      - blueprint_flip_and_turn
-      - Bottleneck
-      - bplib
-      - calculator-ui
-      - cargo-ships
-      - cargo-ships-graphics
-      - Cerys-Moon-of-Fulgora
-      - ChangeInserterDropLane
-      - CleanFloor
-      - cubium
-      - Dectorio
-      - DiscoScience
-      - enhanced-shadows
-      - EpicArtillerySounds
-      - equipment-gantry
-      - even-distribution
-      - fdsl
-      - Flare Stack
-      - flib
-      - FluidMustFlow
-      - FNEI
-      - HelicopterRevival
-      - helmod
-      - Honk
-      - informatron
-      - inventory-repair
-      - jetpack
-      - Krastorio2-spaced-out
-      - Krastorio2Assets
-      - Krastorio2MenuSimulations
-      - Kux-CoreLib
-      - Kux-GuiLib
-      - Kux-OrbitalIonCannon
-      - LogisticTrainNetwork
-      - long_stack_inserter
-      - LtnManager
-      - LTN_Combinator_Modernized
-      - maraxsis
-      - minimalist-rails
-      - Moshine
-      - Moshine-assets
-      - muluna-graphics
-      - muluna-utility-constants
-      - Planet-Hopper
-      - planet-muluna
-      - PlanetsLib
-      - PlanetsLibTiers
-      - qol_research
-      - RateCalculator
-      - Redrawn-Space-Connections
-      - Repair_Turret
-      - resourceMarker
-      - robot_attrition
-      - scattergun_turret
-      - se-space-trains
-      - shield-projector
-      - Shortcuts-ick
-      - show-max-underground-distance
-      - slp-dyson-sphere-reworked
-      - snouz-big-accumulator
-      - snouz-big-solar-panel
-      - snouz_better_substation
-      - space-exploration-graphics
-      - space-exploration-graphics-4
-      - SpidertronEnhancements
-      - SpidertronPatrols
-      - squeak-through-2
-      - tile-upgrade-planner-muluna
-      - Todo-List
-      - valves
-      - VehicleSnap
-      - visible-planets
-      - Waterfill_v17
-      - wood-industry
-      - YARM
+      - name: aai-containers
+      - name: aai-programmable-vehicles
+      - name: aai-signal-transmission
+      - name: aai-signals
+      - name: aai-vehicles-chaingunner
+      - name: aai-vehicles-flame-tank
+      - name: aai-vehicles-hauler
+      - name: aai-vehicles-laser-tank
+      - name: aai-zones
+      - name: alien-biomes
+      - name: alien-biomes-graphics
+      - name: alloy-smelting
+      - name: astroponics
+      - name: Automatic_Train_Painter
+      - name: Better_Starmap_Background
+      - name: bigger-artillery
+      - name: blueprint_flip_and_turn
+      - name: Bottleneck
+      - name: bplib
+      - name: calculator-ui
+      - name: cargo-ships
+      - name: cargo-ships-graphics
+      - name: Cerys-Moon-of-Fulgora
+      - name: ChangeInserterDropLane
+      - name: CleanFloor
+      - name: cubium
+      - name: Dectorio
+      - name: DiscoScience
+      - name: enhanced-shadows
+      - name: EpicArtillerySounds
+      - name: equipment-gantry
+      - name: even-distribution
+      - name: fdsl
+      - name: Flare Stack
+      - name: flib
+      - name: FluidMustFlow
+      - name: FNEI
+      - name: HelicopterRevival
+      - name: helmod
+      - name: Honk
+      - name: informatron
+      - name: inventory-repair
+      - name: jetpack
+      - name: Krastorio2-spaced-out
+      - name: Krastorio2Assets
+      - name: Krastorio2MenuSimulations
+      - name: Kux-CoreLib
+      - name: Kux-GuiLib
+      - name: Kux-OrbitalIonCannon
+      - name: LogisticTrainNetwork
+      - name: long_stack_inserter
+      - name: LtnManager
+      - name: LTN_Combinator_Modernized
+      - name: maraxsis
+      - name: minimalist-rails
+      - name: Moshine
+      - name: Moshine-assets
+      - name: muluna-graphics
+      - name: muluna-utility-constants
+      - name: Planet-Hopper
+      - name: planet-muluna
+      - name: PlanetsLib
+      - name: PlanetsLibTiers
+      - name: qol_research
+      - name: RateCalculator
+      - name: Redrawn-Space-Connections
+      - name: Repair_Turret
+      - name: resourceMarker
+      - name: robot_attrition
+      - name: scattergun_turret
+      - name: se-space-trains
+      - name: shield-projector
+      - name: Shortcuts-ick
+      - name: show-max-underground-distance
+      - name: slp-dyson-sphere-reworked
+      - name: snouz-big-accumulator
+      - name: snouz-big-solar-panel
+      - name: snouz_better_substation
+      - name: space-exploration-graphics
+      - name: space-exploration-graphics-4
+      - name: SpidertronEnhancements
+      - name: SpidertronPatrols
+      - name: squeak-through-2
+      - name: tile-upgrade-planner-muluna
+      - name: Todo-List
+      - name: valves
+      - name: VehicleSnap
+      - name: visible-planets
+      - name: Waterfill_v17
+      - name: wood-industry
+      - name: YARM
 
   service:
     type: ClusterIP
