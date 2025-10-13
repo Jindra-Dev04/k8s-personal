@@ -2,6 +2,8 @@ factorio-server-charts:
   image:
     tag: "1.1.100"
 
+  replicaCount: 0
+
   mods:
     enabled: true
     portal: 
