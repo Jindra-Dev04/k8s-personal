@@ -38,7 +38,7 @@ factorio-server-charts:
       - name: equipment-gantry
       - name: even-distribution
       - name: fdsl
-      - name: Flare Stack
+      - name: 'Flare Stack'
       - name: flib
       - name: FluidMustFlow
       - name: FNEI
@@ -102,7 +102,7 @@ factorio-server-charts:
     port: 34197
 
   factorioServer:
-    generate_new_save: false
+    generate_new_save: true
     enable_space_age: true
 
   account:
