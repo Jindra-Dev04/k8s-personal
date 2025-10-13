@@ -1,0 +1,139 @@
+factorio-server-charts:
+  image:
+    tag: "2.0.69"
+
+  mods:
+    enabled: true
+    portal: 
+      - aai-containers
+      - aai-industry
+      - aai-programmable-vehicles
+      - aai-signal-transmission
+      - aai-signals
+      - aai-vehicles-chaingunner
+      - aai-vehicles-flame-tank
+      - aai-vehicles-hauler
+      - aai-vehicles-laser-tank
+      - aai-zones
+      - alien-biomes
+      - alien-biomes-graphics
+      - alloy-smelting
+      - astroponics
+      - Automatic_Train_Painter
+      - Better_Starmap_Background
+      - bigger-artillery
+      - blueprint_flip_and_turn
+      - Bottleneck
+      - bplib
+      - calculator-ui
+      - cargo-ships
+      - cargo-ships-graphics
+      - Cerys-Moon-of-Fulgora
+      - ChangeInserterDropLane
+      - CleanFloor
+      - cubium
+      - Dectorio
+      - DiscoScience
+      - enhanced-shadows
+      - EpicArtillerySounds
+      - equipment-gantry
+      - even-distribution
+      - fdsl
+      - Flare Stack
+      - flib
+      - FluidMustFlow
+      - FNEI
+      - HelicopterRevival
+      - helmod
+      - Honk
+      - informatron
+      - inventory-repair
+      - jetpack
+      - Krastorio2-spaced-out
+      - Krastorio2Assets
+      - Krastorio2MenuSimulations
+      - Kux-CoreLib
+      - Kux-GuiLib
+      - Kux-OrbitalIonCannon
+      - LogisticTrainNetwork
+      - long_stack_inserter
+      - LtnManager
+      - LTN_Combinator_Modernized
+      - maraxsis
+      - minimalist-rails
+      - Moshine
+      - Moshine-assets
+      - muluna-graphics
+      - muluna-utility-constants
+      - Planet-Hopper
+      - planet-muluna
+      - PlanetsLib
+      - PlanetsLibTiers
+      - qol_research
+      - RateCalculator
+      - Redrawn-Space-Connections
+      - Repair_Turret
+      - resourceMarker
+      - robot_attrition
+      - scattergun_turret
+      - se-space-trains
+      - shield-projector
+      - Shortcuts-ick
+      - show-max-underground-distance
+      - slp-dyson-sphere-reworked
+      - snouz-big-accumulator
+      - snouz-big-solar-panel
+      - snouz_better_substation
+      - space-exploration-graphics
+      - space-exploration-graphics-4
+      - SpidertronEnhancements
+      - SpidertronPatrols
+      - squeak-through-2
+      - tile-upgrade-planner-muluna
+      - Todo-List
+      - valves
+      - VehicleSnap
+      - visible-planets
+      - Waterfill_v17
+      - wood-industry
+      - YARM
+
+  service:
+    type: ClusterIP
+    port: 34197
+
+  factorioServer:
+    generate_new_save: false
+    enable_space_age: true
+
+  account:
+    accountSecret: 'account-secret'
+
+  serverPassword:
+    passwordSecret: 'game-secret'
+
+  server_settings:
+    name: 'As allways'
+    require_user_verification: true
+    autosave_interval: 5
+    tags:
+      - 'game'
+      - 'factorio'
+      - 'server'
+      - 'modded'
+      - 'as-always'
+    visibility:
+      public: true
+      lan: false
+
+  import_save:
+    enabled: false
+    source_url: ''
+
+  rcon:
+    external: false
+    passwordSecret: 'rcon-secret'
+
+  admin_list:
+    - gamabe_cz
+    - mugac
