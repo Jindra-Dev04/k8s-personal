@@ -7,51 +7,51 @@ factorio-server-charts:
   mods:
     enabled: true
     portal: 
-      - aai-containers
-      - aai-industry
-      - aai-signal-transmission
-      - alien-biomes
-      - Bottleneck
-      - bullet-trails
-      - calculator-ui
-      - cargo-ships
-      - cargo-ships-graphics
-      - DeadlockBlackRubberBelts
-      - EpicArtillerySounds
-      - equipment-gantry
-      - even-distribution
-      - far-reach
-      - flib
-      - grappling-gun
-      - helmod
-      - informatron
-      - jetpack
-      - Krastorio2
-      - Krastorio2Assets
-      - LogisticTrainNetwork
-      - LTN_Content_Reader
-      - Mechanicus
-      - Mining_Drones
-      - NapalmArtillery
-      - qol_research_jatmn
-      - queue-to-front-button
-      - RateCalculator
-      - robot_attrition
-      - scattergun_turret
-      - shield-projector
-      - simhelper
-      - space-exploration
-      - space-exploration-graphics
-      - space-exploration-graphics-2
-      - space-exploration-graphics-3
-      - space-exploration-graphics-4
-      - space-exploration-graphics-5
-      - space-exploration-postprocess
-      - 'Squeak Through'
-      - Todo-List
-      - Transport_Drones
-      - VehicleSnap
-      - Waterfill_v17
+      - name: aai-containers
+      - name: aai-industry
+      - name: aai-signal-transmission
+      - name: alien-biomes
+      - name: Bottleneck
+      - name: bullet-trails
+      - name: calculator-ui
+      - name: cargo-ships
+      - name: cargo-ships-graphics
+      - name: DeadlockBlackRubberBelts
+      - name: EpicArtillerySounds
+      - name: equipment-gantry
+      - name: even-distribution
+      - name: far-reach
+      - name: flib
+      - name: grappling-gun
+      - name: helmod
+      - name: informatron
+      - name: jetpack
+      - name: Krastorio2
+      - name: Krastorio2Assets
+      - name: LogisticTrainNetwork
+      - name: LTN_Content_Reader
+      - name: Mechanicus
+      - name: Mining_Drones
+      - name: NapalmArtillery
+      - name: qol_research_jatmn
+      - name: queue-to-front-button
+      - name: RateCalculator
+      - name: robot_attrition
+      - name: scattergun_turret
+      - name: shield-projector
+      - name: simhelper
+      - name: space-exploration
+      - name: space-exploration-graphics
+      - name: space-exploration-graphics-2
+      - name: space-exploration-graphics-3
+      - name: space-exploration-graphics-4
+      - name: space-exploration-graphics-5
+      - name: space-exploration-postprocess
+      - name: 'Squeak Through'
+      - name: Todo-List
+      - name: Transport_Drones
+      - name: VehicleSnap
+      - name: Waterfill_v17
 
   service:
     type: ClusterIP
