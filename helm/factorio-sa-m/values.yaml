@@ -38,7 +38,7 @@ factorio-server-charts:
       - name: equipment-gantry
       - name: even-distribution
       - name: fdsl
-      - name: Flare%20Stack
+      - name: Flare Stack
       - name: flib
       - name: FluidMustFlow
       - name: FNEI
