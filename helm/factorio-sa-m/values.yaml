@@ -98,11 +98,11 @@ factorio-server-charts:
       - name: YARM
 
   service:
-    type: ClusterIP
+    type: NodePort
     port: 34197
 
   factorioServer:
-    generate_new_save: true
+    generate_new_save: false
     enable_space_age: true
 
   account:
