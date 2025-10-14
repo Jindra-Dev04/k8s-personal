@@ -8,5 +8,5 @@ spec:
     - factorio
   routes:
   - services:
-    - name: factorio-factorio-server-charts
+    - name: factorio-sa-m-factorio-server-charts
       port: 34197
