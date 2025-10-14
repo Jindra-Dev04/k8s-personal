@@ -1,7 +1,7 @@
 apiVersion: traefik.containo.us/v1alpha1
 kind: IngressRouteUDP
 metadata:
-  name: factorio-server
+  name: factorio-server-sa
   namespace: factorio
 spec:
   entryPoints:
