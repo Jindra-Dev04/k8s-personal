@@ -1,12 +1,12 @@
-apiVersion: traefik.containo.us/v1alpha1
-kind: IngressRouteUDP
-metadata:
-  name: factorio-server
-  namespace: factorio
-spec:
-  entryPoints:
-    - factorio
-  routes:
-  - services:
-    - name: factorio-factorio-server-charts
-      port: 34197
+# apiVersion: traefik.containo.us/v1alpha1
+# kind: IngressRouteUDP
+# metadata:
+#   name: factorio-server
+#   namespace: factorio
+# spec:
+#   entryPoints:
+#     - factorio
+#   routes:
+#   - services:
+#     - name: factorio-factorio-server-charts
+#       port: 34197
